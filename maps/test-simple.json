@@ -3,23 +3,15 @@
   "name": "test-simple",
   "metadata": {"maputnik:renderer": "mbgljs"},
   "sources": {
-    "un-s": {
+    "ne-test": {
       "type": "vector",
-      "tiles": ["https://ubukawa.github.io/testDB/un-s/{z}/{x}/{y}.pbf"],
+      "tiles": ["https://ubukawa.github.io/vt-test/ne-test/{z}/{x}/{y}.pbf"],
       "minZoom": 0,
-      "maxZoom": 14,
-      "maxzoom": 4
-    },
-    "osm-s": {
-      "type": "vector",
-      "tiles": ["https://ubukawa.github.io/testDB/osm-s/{z}/{x}/{y}.pbf"],
-      "minZoom": 0,
-      "maxZoom": 14,
-      "maxzoom": 5
+      "maxZoom": 5
     }
   },
-  "sprite": "https://ubukawa.github.io/style_test3/sprite_test/sprite_S",
-  "glyphs": "https://ubukawa.github.io/style_test3/font/{fontstack}/{range}.pbf",
+  "sprite": "https://ubukawa.github.io/vt-test/sprite/sprite_S",
+  "glyphs": "https://ubukawa.github.io/vt-test/font/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

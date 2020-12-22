@@ -7,10 +7,10 @@ Original data comes from the Natural Earth. (Public domain data)
 https://www.naturalearthdata.com/   
 
 # Vector tiles
-##URL https://ubukawa.github.io/vt-test/ne-test//{z}/{x}/{y}.pbf  
+## URL https://ubukawa.github.io/vt-test/ne-test/{z}/{x}/{y}.pbf  
 ## max zoom 5  
-##min zoom 0
-##layers  
+## min zoom 0
+## layers  
 landmass (from ne_110m_land.shp)  
 bndl (from ne_110m_admin_0_boundary_lines_land.shp)  
 popp (from ne_110m_populated_places.shp)  
