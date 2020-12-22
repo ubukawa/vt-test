@@ -1,0 +1,60 @@
+{
+  "version": 8,
+  "name": "test-simple",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {
+    "un-s": {
+      "type": "vector",
+      "tiles": ["https://ubukawa.github.io/testDB/un-s/{z}/{x}/{y}.pbf"],
+      "minZoom": 0,
+      "maxZoom": 14,
+      "maxzoom": 4
+    },
+    "osm-s": {
+      "type": "vector",
+      "tiles": ["https://ubukawa.github.io/testDB/osm-s/{z}/{x}/{y}.pbf"],
+      "minZoom": 0,
+      "maxZoom": 14,
+      "maxzoom": 5
+    }
+  },
+  "sprite": "https://ubukawa.github.io/style_test3/sprite_test/sprite_S",
+  "glyphs": "https://ubukawa.github.io/style_test3/font/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "maxzoom": 6,
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(193, 255, 235, 1)"}
+    },
+    {
+      "id": "landmass",
+      "type": "fill",
+      "source": "un-s",
+      "source-layer": "landmass",
+      "maxzoom": 6,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(0, 97, 77, 1)"}
+    },
+    {
+      "id": "bndl",
+      "type": "line",
+      "source": "un-s",
+      "source-layer": "hq_bnd",
+      "maxzoom": 6,
+      "layout": {"visibility": "visible"},
+      "paint": {"line-color": "rgba(161, 159, 159, 1)"}
+    },
+    {
+      "id": "cty_name",
+      "type": "symbol",
+      "source": "un-s",
+      "source-layer": "lab_cty",
+      "minzoom": 2,
+      "maxzoom": 6,
+      "layout": {"text-font": ["sans"], "text-field": "{textstring}"}
+    }
+  ],
+  "id": "m6vb7609g"
+}
