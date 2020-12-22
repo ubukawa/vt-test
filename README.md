@@ -16,8 +16,13 @@ bndl (from ne_110m_admin_0_boundary_lines_land.shp)
 popp (from ne_110m_populated_places.shp)  
 coastl (from ne_110m_coastline.shp)    
 
+# test style  
+https://ubukawa.github.io/vt-test/maps/test-simple.json  
+
 # test URL  
-https://ubukawa.github.io/vt-test/  
+https://ubukawa.github.io/vt-test/maps/test-simple-mapbox.html  
+https://ubukawa.github.io/vt-test/maps/test-simple-arc.html  
+  
 
 # References  
 https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js  
