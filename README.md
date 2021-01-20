@@ -19,6 +19,9 @@ coastl (from ne_110m_coastline.shp)
 # test style  
 https://ubukawa.github.io/vt-test/maps/test-simple.json  
 
+# test tile.json  
+https://ubukawa.github.io/vt-test/maps/test-tile.json  
+
 # test URL  
 https://ubukawa.github.io/vt-test/maps/test-simple-mapbox.html  
 https://ubukawa.github.io/vt-test/maps/test-simple-arc.html  
