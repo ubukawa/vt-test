@@ -5,7 +5,8 @@
   "attribution": "from Natural Earth",
   "maxzoom": 5,
   "minzoom": 0,
-  "bounds": [-180, -85, 180, 85],
+  "bounds": [5.00,10.00,60.00,70.00],
+  "center": [13.40,43.00,1],
   "vector_layers": [{
     "id": "test",
     "description": "test",
