@@ -141,7 +141,8 @@
                 
                 // Basemap Sources を LocalBasemapsSource 
                 const localSource = new LocalBasemapsSource({
-                    basemaps: [stdMap, testMap, esriTopo]
+                    //basemaps: [stdMap, testMap, esriTopo] //Token is needed
+                    basemaps: [stdMap, testMap]
                 });
                 
                 // Basemap Gallery Widget に LocalBasemapsSource を設定
