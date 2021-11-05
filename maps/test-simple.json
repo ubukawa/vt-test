@@ -16,7 +16,7 @@
     {
       "id": "background",
       "type": "background",
-      "maxzoom": 5,
+      "maxzoom": 8,
       "paint": {"background-color": "rgba(135, 188, 196, 1)"}
     },
     {
@@ -24,7 +24,7 @@
       "type": "fill",
       "source": "ne-test",
       "source-layer": "landmass",
-      "maxzoom": 5,
+      "maxzoom": 8,
       "paint": {"fill-color": "rgba(174, 255, 147, 1)"}
     },
     {
@@ -32,7 +32,7 @@
       "type": "line",
       "source": "ne-test",
       "source-layer": "coastl",
-      "maxzoom": 5,
+      "maxzoom": 8,
       "paint": {"line-color": "rgba(58, 0, 160, 1)"}
     },
     {
@@ -40,7 +40,7 @@
       "type": "line",
       "source": "ne-test",
       "source-layer": "bndl",
-      "maxzoom": 5,
+      "maxzoom": 8,
       "paint": {"line-color": "rgba(138, 138, 138, 1)"}
     },
     {
@@ -49,7 +49,7 @@
       "source": "ne-test",
       "source-layer": "popp",
       "minzoom": 2,
-      "maxzoom": 5,
+      "maxzoom": 8,
       "layout": {
         "text-font": ["sans"],
         "text-field": "{NAME}",
