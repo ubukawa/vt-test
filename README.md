@@ -24,6 +24,7 @@ https://ubukawa.github.io/vt-test/maps/test-tile.json
 
 # test URL  
 https://ubukawa.github.io/vt-test/maps/test-simple-mapbox.html  
+https://ubukawa.github.io/vt-test/maps/test-simple-maplibre.html  
 https://ubukawa.github.io/vt-test/maps/test-simple-arc.html  
   
 
